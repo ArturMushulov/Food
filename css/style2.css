@@ -1,0 +1,13 @@
+.show {
+    display: block;
+}
+.hide {
+    display: none;
+}
+.fade {
+    animation: fade 1.5s;
+}
+@keyframes fade {
+    form{opacity: 0.1;}
+    to{opacity: 1;}
+}
